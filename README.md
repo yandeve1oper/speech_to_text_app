@@ -1,6 +1,6 @@
 ## Project Overview
 
-Welcome to my simple  speech-to-text app. I implemented main clean architecture priciples. The app code is divided into three layers: data, domain and presentation. I used Bloc library for state-management and flutter_sound, just_sound to implement recording and playback features. 
+Welcome to my simple  **Speech-To-Text App**. I implemented main clean architecture priciples. The app code is divided into three layers: data, domain and presentation. I used **Bloc** library for state-management and **record**, **just_sound** libs to implement recording and playback features. 
 
 ## Setup project:
 1. Copy google-credentials.json to assets folder.
