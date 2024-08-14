@@ -9,14 +9,9 @@ import '../cubit/transcription_cubit.dart';
 import '../cubit/transcription_state.dart';
 import '../widgets/transcription_content.dart';
 
-class TranscriptionPage extends StatefulWidget {
+class TranscriptionPage extends StatelessWidget {
   const TranscriptionPage({super.key});
 
-  @override
-  State<TranscriptionPage> createState() => _TranscriptionPageState();
-}
-
-class _TranscriptionPageState extends State<TranscriptionPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
